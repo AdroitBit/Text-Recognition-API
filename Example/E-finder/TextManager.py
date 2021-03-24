@@ -1,4 +1,3 @@
-from Importer import *
 class AlphaBet:
 	def __init__(self,char,x1,y1,x2,y2):
 		self.char=char;
