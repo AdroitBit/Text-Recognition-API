@@ -1,10 +1,9 @@
+# Text-Recognition-API
 <style>
 H1{color:Blue !important;}
 H2{color:DarkOrange !important;}
 p{color:Black !important;display:inline-block;}
 </style>
-
-# Text-Recognition-API
 This is the API that created to simplify Open-CV and pytesseract(aka. Tesseract)
 
 <ol><u>This API require</u>
