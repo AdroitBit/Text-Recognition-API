@@ -1,10 +1,10 @@
-<ul>The purpose of this python program is
+<ul>The purpose of this python program are
 <li>examples of this API</li>
 <li>finding E</li>
 <li>E</li>
 <li>E</li>
 <li>E</li>
-<ul>
+</ul>
 This program still require tesseract program and Window OS<br>
 
 
