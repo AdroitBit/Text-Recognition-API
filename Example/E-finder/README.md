@@ -5,7 +5,7 @@
 <li>E</li>
 <li>E</li>
 </ul>
-This program will take your files.<br>
+This program will ask your files.<br>
 modify them by replacing every "E" in images with pictures from "E image" folder<br>
 then save to "E Result" folder<br><br>
 
