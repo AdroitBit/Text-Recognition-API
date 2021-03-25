@@ -7,6 +7,4 @@
 </ul>
 This program will take your files.<br>
 modify them by replacing every "E" in images with pictures from "E image" folder<br>
-then save to "E Result" folder<br><br>
-
-This program require tesseract program and Window OS<br>
+then save to "E Result" folder right where you selected files<br><br>
