@@ -1,5 +1,5 @@
 # Text-Recognition-API
-This is the API that created to simplify Open-CV and pytesseract(aka. Tesseract)<br>
+This is the API that made in python to simplify Open-CV and pytesseract(aka. Tesseract)<br>
 import to project by adding "TextRecognizer" folder to your project then import by
 <h3>from TextRecognizer.TextRecognizer import *</h3>
 
