@@ -9,4 +9,4 @@ This is the API that created to simplify Open-CV and pytesseract(aka. Tesseract)
 <li>tkinter</li>
 </ul>
 
-<h3>Note:this API require Tesseract program</h3>
+<h3>Note: This API require Tesseract program</h3>
