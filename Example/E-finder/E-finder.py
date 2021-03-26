@@ -11,8 +11,7 @@ imgs_toFind_E.add(Image.fromScreen().renameTo("Screenshot.jpg"))#will save as "S
 imgs_E=Images.inFolder("E image");
 
 address_toWrite_E=imgs_toFind_E[0].foldername+"/E Result/";
-result=createPath(address_toWrite_E)
-if(result==-1):
+if(createPath(address_toWrite_E)==-1):
 	print('Can\'t create folder "%s"' % address_toWrite_E)
 	input();
 	exit();
