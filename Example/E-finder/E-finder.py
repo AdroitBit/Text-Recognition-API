@@ -5,10 +5,14 @@ def format(s):
 	return s.format(char_to_find)
 print("Ready\n")
 
-print('Please pick the images to find "E"')
-imgs_toFind_E=Images.fromAddress(pickFiles('pick the images to find "E"',"Image to find E/"))
-imgs_toFind_E.add(Image.fromScreen().renameTo("Screenshot.jpg"))#will save as "ScreenShot.jpg"
-imgs_E=Images.inFolder("E image");
+print('Pick the images to find "E"')
+imgs_toFind_E=Images.fromAddress(pickFiles('Pick the images to find "E"',"Image to find E/"))
+#uncomment this if you want screenshot
+#imgs_toFind_E.add(Image.fromScreen().renameTo("Screenshot.jpg"))
+
+
+print('Pick the images for replacing those "E"')
+imgs_E=Images.fromAddress(pickFiles('Pick the "E" images to replace those "E"',"E Image/"))
 
 address_toWrite_E=imgs_toFind_E[0].foldername+"/E Result/";
 if(createPath(address_toWrite_E)==-1):

@@ -74,7 +74,10 @@ def createPath(path):
 		try:
 			os.makedirs(path)
 		except OSError:
-			return -1
+			if(os.path.isdir(path)):
+				return -2
+			else:
+				return -1
 		else:
 			return 0
 	
