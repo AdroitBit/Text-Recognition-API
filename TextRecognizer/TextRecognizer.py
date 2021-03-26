@@ -3,7 +3,6 @@ from math import *
 import random
 from glob import *
 import os
-
 import tkinter as tk
 from tkinter import filedialog
 import re as regex#finding a way to do string.split("regexp string","regexp attribute") instead of regex.split("regexp string","string")
@@ -74,7 +73,10 @@ def createPath(path):
 		try:
 			os.makedirs(path)
 		except OSError:
-			return -1
+			if(os.path.isdir(path)==True):
+				return -2
+			else:
+				return -1
 		else:
 			return 0
 	
