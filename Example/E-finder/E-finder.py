@@ -27,7 +27,7 @@ else:
 print()
 
 print("Highlight E? [Y/N]:",end="")
-highlight_E=input();
+highlight_E=input().upper();
 highlight_E=True if highlight_E=="Y" else False
 print()
 
