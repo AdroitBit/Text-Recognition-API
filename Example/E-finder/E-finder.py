@@ -6,10 +6,7 @@ def format(s):
 print("Ready\n")
 
 print('Pick the images to find "E"')
-imgs_toFind_E=Images.fromAddress(pickFiles('Pick the images to find "E"',"Image to find E/"))
-#uncomment this if you want screenshot
-#imgs_toFind_E.add(Image.fromScreen().renameTo("Screenshot.jpg"))
-
+imgs_toFind_E=Images.fromAddress(pickFiles('Pick the images to find "E"'))
 
 print('Pick the images for replacing those "E"')
 imgs_E=Images.fromAddress(pickFiles('Pick the "E" images to replace those "E"',"E Image/"))
